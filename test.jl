@@ -44,6 +44,6 @@ limit = 10^6
 duration = 10.0  # seconds
 
 # Run benchmark
-println("Benchmarking prime sieve...")
+println("Benchmarking prime sieve....")
 primes_per_second = benchmark_sieve(limit, duration)
 println("Processed $(primes_per_second) numbers per second.")
